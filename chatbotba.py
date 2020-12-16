@@ -6,8 +6,8 @@ mis_reflexions = {
 
 pares = [
     [
-        r"se me ha caido el hosting (.*)",
-        ["Sentimos ese fallo, para reiniciarlo, entra en CPANEL y selecciona reiniciar",]
+        r"(.*) donde|ubicacion (.*) Baston (.*)",
+        ["El baston de encuentra, entrando por la entrada principal de peatones, el primer edificio a la izquierda, Ademas te dejo la ubicacion por si quieres buscarlo en google maps: https://goo.gl/maps/U4q71uFA3xBJ7QD36 "]
     ],
      [
         r"cuando hay que pagar la factura (.*)",
@@ -15,19 +15,19 @@ pares = [
     ],
     [
         r"(.*) ampliar el servicio",
-        ["Para ampliar el servicio, contacta con facturacion",]
+        ["Para ampliar el servicio, contacta con facturacion"]
     ],
     [
         r"disculpa (.*)",
-        ["No pasa nada",]
+        ["https://goo.gl/maps/Bh46jB2FpMgL7GHG6",]
     ],
     [
         r"hola|hey|buenas",
-        ["Hola", "Que tal",]
+        ["el priemr edificio a la izquierda por la entrada principal, \n ademas te dejamos la ubicacion: https://goo.gl/maps/Bh46jB2FpMgL7GHG6", "Que tal",]
     ],
     [
-        r"que (.*) quieres ?",
-        ["Nada gracias",]
+        r"(.*) baño (.*) baston (.*)",
+        ["no este chingando y vaya a surrar a su casa"]
         
     ],
     [
