@@ -43,6 +43,8 @@ def chatear():
     print("Hola, soy el servicio de hosting") #mensaje por defecto
     chat = Chat(pares, mis_reflexions)
     chat.converse()
+    print(chat.respond())
+
 if __name__ == "__main__":
     chatear()
 
