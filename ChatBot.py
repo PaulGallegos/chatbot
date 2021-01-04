@@ -3,7 +3,7 @@ import re
 
 class ChatBot:
     def __init__(self, context, seed, model, tokenizer, first_message):
-        #self.brain = ChatBotBrain(context, seed, model, tokenizer)
+        self.brain = ChatBotBrain(context, seed, model, tokenizer)
         self.first_message = first_message
         self.init_answers()
 
