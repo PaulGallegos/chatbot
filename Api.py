@@ -17,7 +17,7 @@ class Api:
         return id_chat, user, text, id_update
 
     def update(self, last_message):
-        request = requests.get(URL + 'getUpdates?offset=' + str(last_message))
+        request = requests.get(URL + 'getUpdates?offset=' + str(last_message) + "&timeout=" + str(100))
         message_js = request.content.decode('UTF-8')
         messages = json.loads(message_js)
         return messages
