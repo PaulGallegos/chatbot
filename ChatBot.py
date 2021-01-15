@@ -241,35 +241,35 @@ class ChatBot:
             ),
             (
             '(.*)publicaciones(.*)',
-            'Puedes estar al tanto de lo que se publica en el pefil de Twitter del ITTEPIC dando click en el siguiente enlace: \n Twitter: https://twitter.com/TecnmTepic.\n O de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.youtube.com/user/TheARTE1999'
+            'Puedes estar al tanto de lo que se publica en el pefil de Twitter del ITTEPIC dando click en el siguiente enlace: \n Twitter: https://twitter.com/TecnmTepic.\n     O de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.youtube.com/user/TheARTE1999'
             ),
             (
             '(.*)youtube(.*)',
-            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://goo.gl/maps/2ftZrVtuDEazSqu8A'
+            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://www.youtube.com/user/TheARTE1999
             ),
             (
             '(.*)videos(.*)',
-            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://goo.gl/maps/2ftZrVtuDEazSqu8A'
+            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://www.youtube.com/user/TheARTE1999
             ),
             (
             '(.*)mensajes(.*)',
-            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.youtube.com/user/TheARTE1999'
+            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.facebook.com/TecnologicodeTepic/ '
             ),
             (
             '(.*)fotos(.*)',
-            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.youtube.com/user/TheARTE1999'
+            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.facebook.com/TecnologicodeTepic/'
             ),
             (
             '(.*)face(.*)',
-            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.youtube.com/user/TheARTE1999'
+            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.facebook.com/TecnologicodeTepic/'
             ),
             (
             '(.*)redes(.*)',
-            'Sigue las redes de ITTEPIC: \n Twitter: https://twitter.com/TecnmTepic \n Youtube: https://goo.gl/maps/2ftZrVtuDEazSqu8A \n Facebook: https://www.youtube.com/user/TheARTE1999'
+            'Sigue las redes de ITTEPIC: \n Twitter: https://twitter.com/TecnmTepic \n Youtube: https://www.youtube.com/user/TheARTE1999 \n Facebook: https://www.facebook.com/TecnologicodeTepic/'
             ),
             (
             '(.*)sociales(.*)',
-            'Sigue las redes de ITTEPIC: \n Twitter: https://twitter.com/TecnmTepic \n Youtube: https://goo.gl/maps/2ftZrVtuDEazSqu8A \n Facebook: https://www.youtube.com/user/TheARTE1999'
+            'Sigue las redes de ITTEPIC: \n Twitter: https://twitter.com/TecnmTepic \n Youtube: https://www.youtube.com/user/TheARTE1999 \n Facebook: https://www.facebook.com/TecnologicodeTepic/'
             ),
             (
                 '(.*)(carrera|informacion)(.*)(sistemas|computacionales)(.*)',
