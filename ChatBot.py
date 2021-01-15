@@ -48,7 +48,7 @@ class ChatBot:
                 'El edificio baston se encuentra por la entrada peatonal principal, primer edificio de la izquierda. \n Aqui tienes la ubicacion:  https://goo.gl/maps/Xj2HTpdMqjXUYLiJ7 '
             ),
             (
-                '(.*)(donde|ubicacion)(.*)ud(.*))',
+                '(.*)(donde|ubicacion)(.*)ud(.*)',
                 'El edificio UD se encuentra por la entrada peatonal principal, primer edificio de la derecha. \n Aqui tienes la ubicacion: https://goo.gl/maps/oxmE7phGNeYLMqbx7'
             ),
             (
@@ -245,11 +245,11 @@ class ChatBot:
             ),
             (
             '(.*)youtube(.*)',
-            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://www.youtube.com/user/TheARTE1999
+            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://www.youtube.com/user/TheARTE1999'
             ),
             (
             '(.*)videos(.*)',
-            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://www.youtube.com/user/TheARTE1999
+            'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://www.youtube.com/user/TheARTE1999'
             ),
             (
             '(.*)mensajes(.*)',
