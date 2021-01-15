@@ -88,7 +88,7 @@ class ChatBot:
                 'Puedes ver nuestras oferta educativa en el siguiente link: \nhttps://www.tepic.tecnm.mx/ofertaeducativa'
             ),
             (
-                '(.*)facebook(.*)',
+                '(.*)facebook(.*) tepic(.*)',
                 'Este es nuestro Facebook link: \nhttps://m.facebook.com/TecnologicodeTepic/'
             ),
             (
@@ -250,10 +250,6 @@ class ChatBot:
             (
             '(.*)videos(.*)',
             'Puedes estar al tanto de los videos que se publican en YouTube sobre el ITTEPIC dando click en el siguiente enlace: : \n Youtube: https://goo.gl/maps/2ftZrVtuDEazSqu8A'
-            ),
-            (
-            '(.*)facebook(.*)',
-            'Puedes estar al tanto de las publicaciones del Facebook oficial del ITTEPIC dando click en el siguiente enlace: \n Facebook: https://www.youtube.com/user/TheARTE1999'
             ),
             (
             '(.*)mensajes(.*)',
